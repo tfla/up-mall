@@ -1,0 +1,19 @@
+\ProvidesFile{t1borisblackbloxx.fd}[Boris Black Bloxx]
+
+\DeclareFontFamily{T1}{borisblackbloxx}{}
+
+\DeclareFontShape{T1}{borisblackbloxx}{m}{n}{
+   <-> borisblackbloxx
+}{}
+
+\DeclareFontShape{T1}{borisblackbloxx}{bx}{n}{<->ssub * borisblackbloxx/m/n}{}
+
+\DeclareFontShape{T1}{borisblackbloxx}{m}{it}{<->ssub * ptm/m/it}{}
+\DeclareFontShape{T1}{borisblackbloxx}{m}{sl}{<->ssub * ptm/m/sl}{}
+\DeclareFontShape{T1}{borisblackbloxx}{m}{sc}{<->ssub * ptm/m/sc}{}
+
+\DeclareFontShape{T1}{borisblackbloxx}{bx}{it}{<->ssub * ptm/b/it}{}
+\DeclareFontShape{T1}{borisblackbloxx}{bx}{sl}{<->ssub * ptm/b/sl}{}
+\DeclareFontShape{T1}{borisblackbloxx}{bx}{sc}{<->ssub * ptm/b/sc}{}
+
+\pdfmapline{+borisblackbloxx\space <borisblackbloxx.ttf\space <T1-WGL4.enc}

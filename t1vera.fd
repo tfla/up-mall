@@ -1,0 +1,16 @@
+\ProvidesFile{t1vera.fd}
+\DeclareFontFamily{T1}{vera}{}
+\DeclareFontShape{T1}{vera}{m}{n}{ <-> vera}{}
+\DeclareFontShape{T1}{vera}{dx}{n}{ <-> vera}{}
+
+\DeclareFontShape{T1}{vera}{bx}{n}{<->ssub * vera/m/n}{}
+
+\DeclareFontShape{T1}{vera}{m}{it}{<->ssub * ptm/m/it}{}
+\DeclareFontShape{T1}{vera}{m}{sl}{<->ssub * ptm/m/sl}{}
+\DeclareFontShape{T1}{vera}{m}{sc}{<->ssub * ptm/m/sc}{}
+
+\DeclareFontShape{T1}{vera}{bx}{it}{<->ssub * ptm/b/it}{}
+\DeclareFontShape{T1}{vera}{bx}{sl}{<->ssub * ptm/b/sl}{}
+\DeclareFontShape{T1}{vera}{bx}{sc}{<->ssub * ptm/b/sc}{}
+
+\pdfmapline{+vera\space <vera.ttf\space <T1-WGL4.enc}

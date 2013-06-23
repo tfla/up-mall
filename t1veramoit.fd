@@ -1,0 +1,5 @@
+\ProvidesFile{t1veramoit.fd}
+\DeclareFontFamily{T1}{veramoit}{}
+\DeclareFontShape{T1}{veramoit}{m}{n}{ <-> veramoit}{}
+\DeclareFontShape{T1}{veramoit}{dx}{n}{ <-> veramoit}{}
+\pdfmapline{+vera\space <veramoit.ttf\space <T1-WGL4.enc}

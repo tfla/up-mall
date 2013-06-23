@@ -1,0 +1,5 @@
+\ProvidesFile{t1verait.fd}
+\DeclareFontFamily{T1}{verait}{}
+\DeclareFontShape{T1}{verait}{m}{n}{ <-> verait}{}
+\DeclareFontShape{T1}{verait}{dx}{n}{ <-> verait}{}
+\pdfmapline{+vera\space <verait.ttf\space <T1-WGL4.enc}

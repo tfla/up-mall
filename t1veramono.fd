@@ -1,0 +1,5 @@
+\ProvidesFile{t1veramono.fd}
+\DeclareFontFamily{T1}{veramono}{}
+\DeclareFontShape{T1}{veramono}{m}{n}{ <-> veramono}{}
+\DeclareFontShape{T1}{veramono}{dx}{n}{ <-> veramono}{}
+\pdfmapline{+vera\space <veramono.ttf\space <T1-WGL4.enc}

@@ -1,0 +1,5 @@
+\ProvidesFile{t1verabd.fd}
+\DeclareFontFamily{T1}{verabd}{}
+\DeclareFontShape{T1}{verabd}{m}{n}{ <-> verabd}{}
+\DeclareFontShape{T1}{verabd}{dx}{n}{ <-> verabd}{}
+\pdfmapline{+verabd\space <verabd.ttf\space <T1-WGL4.enc}

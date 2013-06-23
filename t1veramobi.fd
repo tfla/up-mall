@@ -1,0 +1,5 @@
+\ProvidesFile{t1veramobi.fd}
+\DeclareFontFamily{T1}{veramobi}{}
+\DeclareFontShape{T1}{veramobi}{m}{n}{ <-> veramobi}{}
+\DeclareFontShape{T1}{veramobi}{dx}{n}{ <-> veramobi}{}
+\pdfmapline{+vera\space <veramobi.ttf\space <T1-WGL4.enc}
