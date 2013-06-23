@@ -1,5 +1,5 @@
 \ProvidesFile{t1verabi.fd}
-\DeclareFontFamily{T1}{verai}{}
+\DeclareFontFamily{T1}{verabi}{}
 \DeclareFontShape{T1}{verabi}{m}{n}{ <-> verabi}{}
 \DeclareFontShape{T1}{verabi}{dx}{n}{ <-> verabi}{}
-\pdfmapline{+vera\space <verabi.ttf\space <T1-WGL4.enc}
+\pdfmapline{+verabi\space <verabi.ttf\space <T1-WGL4.enc}
