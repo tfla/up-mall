@@ -2,4 +2,4 @@
 \DeclareFontFamily{T1}{veramobd}{}
 \DeclareFontShape{T1}{veramobd}{m}{n}{ <-> veramobd}{}
 \DeclareFontShape{T1}{veramobd}{dx}{n}{ <-> veramobd}{}
-\pdfmapline{+vera\space <veramobd.ttf\space <T1-WGL4.enc}
+\pdfmapline{+veramobd\space <veramobd.ttf\space <T1-WGL4.enc}
