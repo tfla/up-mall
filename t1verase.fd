@@ -2,4 +2,4 @@
 \DeclareFontFamily{T1}{verase}{}
 \DeclareFontShape{T1}{verase}{m}{n}{ <-> verase}{}
 \DeclareFontShape{T1}{verase}{dx}{n}{ <-> verase}{}
-\pdfmapline{+vera\space <verase.ttf\space <T1-WGL4.enc}
+\pdfmapline{+verase\space <verase.ttf\space <T1-WGL4.enc}

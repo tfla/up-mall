@@ -1,0 +1,19 @@
+\ProvidesFile{t1borisblackbloxxdirty.fd}[Boris Black Bloxx Dirty]
+
+\DeclareFontFamily{T1}{borisblackbloxxdirty}{}
+
+\DeclareFontShape{T1}{borisblackbloxxdirty}{m}{n}{
+   <-> borisblackbloxxdirty
+}{}
+
+\DeclareFontShape{T1}{borisblackbloxxdirty}{bx}{n}{<->ssub * borisblackbloxxdirty/m/n}{}
+
+\DeclareFontShape{T1}{borisblackbloxxdirty}{m}{it}{<->ssub * ptm/m/it}{}
+\DeclareFontShape{T1}{borisblackbloxxdirty}{m}{sl}{<->ssub * ptm/m/sl}{}
+\DeclareFontShape{T1}{borisblackbloxxdirty}{m}{sc}{<->ssub * ptm/m/sc}{}
+
+\DeclareFontShape{T1}{borisblackbloxxdirty}{bx}{it}{<->ssub * ptm/b/it}{}
+\DeclareFontShape{T1}{borisblackbloxxdirty}{bx}{sl}{<->ssub * ptm/b/sl}{}
+\DeclareFontShape{T1}{borisblackbloxxdirty}{bx}{sc}{<->ssub * ptm/b/sc}{}
+
+\pdfmapline{+borisblackbloxxdirty\space <borisblackbloxxdirty.ttf\space <T1-WGL4.enc}

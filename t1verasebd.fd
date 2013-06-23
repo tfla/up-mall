@@ -2,4 +2,4 @@
 \DeclareFontFamily{T1}{verasebd}{}
 \DeclareFontShape{T1}{verasebd}{m}{n}{ <-> verasebd}{}
 \DeclareFontShape{T1}{verasebd}{dx}{n}{ <-> verasebd}{}
-\pdfmapline{+vera\space <verasebd.ttf\space <T1-WGL4.enc}
+\pdfmapline{+verasebd\space <verasebd.ttf\space <T1-WGL4.enc}
